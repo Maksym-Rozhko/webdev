@@ -23,8 +23,8 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-top: 22px;
-	padding-bottom: 90px;
+	padding-top: 21px;
+	padding-bottom: 91px;
 }
 
 .header-nav {
@@ -74,7 +74,7 @@ body {
 }
 
 .header-logo svg {
-	height: 50px;
+	height: 52px;
 	width: 45px;
 }
 
@@ -102,18 +102,18 @@ body {
 	width: 520px;
 	margin: 0 auto;
 	text-align: center;
-	margin-top: 22px;
-	margin-bottom: 30px;
+	margin-top: 25px;
+	margin-bottom: 28px;
 }
 
 .content-btn {
 	display: block;
 	background: #00AFDB;
-	padding: 12px 46px;
+	padding: 12px 45px;
 	font-style: normal;
 	font-weight: bold;
     font-size: 14px;
-    line-height: 20px;
+    line-height: 18px;
 	text-align: center;
 	text-transform: uppercase;
 	color: #fff;
@@ -146,8 +146,8 @@ body {
 /* section your smart design */
 
 .your-smart-design {
-	padding-top: 160px;
-	padding-bottom: 186px;
+    padding-top: 115px;
+    padding-bottom: 138px;
 }
 
 .design-container {
@@ -157,27 +157,27 @@ body {
 }
 
 .design-container .content-container {
-	margin-top: 233px;
-	margin-right: 164px;
-	width: 518px;
+    margin-top: 171px;
+    margin-right: 130px;
+    width: 388px;
 }
 
 .design-container .content-header {
-	font-size: 32px;
-	letter-spacing: 1.3px;
-	line-height: 37px;
+	font-size: 24px;
+	letter-spacing: 1px;
+	line-height: 30px;
 	text-align: left;
 	color: #373737;
 }
 
 .design-container .content-paragraph {
-	font-size: 16px;
-	margin-top: 29px;
+    font-size: 14px;
+    margin-top: 20px;
+	margin-bottom: 31px;
 	font-weight: 500;
 	text-align: left;
-	letter-spacing: 1.255px;
-	line-height: 174%;
-	width: 541px;
+    line-height: 20px;
+    width: 408px;
 	color: #4E4E4E;
 }
 
@@ -187,14 +187,6 @@ body {
 
 .design-container .content-btn {
 	margin: 0;
-}
-
-.img-container {
-	margin-left: 6px;
-}
-
-.img-size {
-	width: 543px;
 }
 
 /* section our community */ 
