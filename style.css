@@ -20,9 +20,10 @@ body {
 /* Header */
 .header {
 	background-image: url('./assets/img/bg-image.png');
+	background-color: #000;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 	padding-top: 21px;
 	padding-bottom: 91px;
 }
@@ -75,7 +76,6 @@ body {
 
 .header-logo svg {
 	height: 52px;
-	width: 45px;
 }
 
 .header-content {
@@ -217,7 +217,7 @@ body {
 	letter-spacing: 2.6px;
 	line-height: 22px;
 	color: #373737;
-	margin-top: 19px;
+	margin-top: 20px;
     margin-bottom: 10px;
 }
 
@@ -226,6 +226,8 @@ body {
     font-size: 14px;
     line-height: 21px;
 	color: #4E4E4E;
+	margin-top: 0;
+	margin-bottom: 0;
 } 
 
 .slider {
@@ -283,9 +285,9 @@ body {
 }
 
 .implement-right-code  .right-code-container {
-	margin-top: 231px;
-	margin-right: 168px;
-	width: 518px;
+    margin-right: 0;
+    margin-top: 162px;
+	width: 515px;
 }
 
 .implement-right-code .right-code-header {
@@ -294,20 +296,15 @@ body {
 
 .implement-right-code .right-code-paragraph {
 	margin-left: 0;
-	width: 560px;
-	line-height: 170%;
-	margin-top: 28px;
-	margin-bottom: 40px;
+	width: 415px;
+    line-height: 140%;
+    margin-top: 21px;
+    margin-bottom: 30px;
 }
 
 .implement-right-code .right-code-btn {
 	margin: 0;
-	line-height: 22px;
-}
-
-.implement-right-code .right-code-img {
-	margin-left: -1px;
-	margin-top: 1px;
+	line-height: 18px;
 }
 
 /* sign up */
@@ -315,8 +312,8 @@ body {
 	background-image: url('./assets/img/form-bg.png');
 	background-repeat: no-repeat;
 	background-size: cover;
-    padding-top: 248px;
-    padding-bottom: 272px;
+    padding-top: 177px;
+    padding-bottom: 220px;
     position: relative;
 }
 
@@ -340,33 +337,36 @@ body {
 .form-header {
 	font-style: normal;
     font-weight: bold;
-    font-size: 30px;
-    line-height: 26px;
+	font-size: 22px;
+    line-height: 30px;
     text-align: center;
-    letter-spacing: 2.6px;
+	letter-spacing: 2.16px;
     text-transform: uppercase;
     color: #fff;
     margin-top: 24px;
-    margin-bottom: 45px;
+    margin-bottom: 28px;
+}
+
+.form-submit {
+	display: flex;
+    justify-content: center;
 }
 
 .form-mail {
-    width: 456px;
+	width: 338px;
     font-style: normal;
-    height: 60px;
+    height: 48px;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 140%;
-    position: relative;
-    top: -22px;
+    font-size: 14px;
+    line-height: 120%;
     border: none;
-	padding-left: 31px;
+    padding-left: 23px;
 	outline: none;
 }
 
 .form-btn {
-    width: 86px;
-    height: 60px;
+	width: 68px;
+    height: 48px;
     background: #00AFDB;
     cursor: pointer;
     position: relative;
@@ -382,17 +382,21 @@ body {
 	content: "";
 	position: absolute;
 	border: solid #fff;
-	border-width: 0 4px 4px 0;
-	padding: 4px;
+	border-width: 0 3px 3px 0;
+    padding: 3px;
   	padding-top: 10px;
 	position: absolute;
 	transform: rotate(45deg);
 	cursor: pointer;
-	left: 37px;
-	top: 18px;
+    left: 31px;
+    top: 13px;
 }
 
 /* download-box */
+.download-box {
+	padding-bottom: 178px;
+}
+
 .download-box .content-btn {
 	border: none;
 }
@@ -413,77 +417,80 @@ body {
 
 .design-container .download-header {
 	text-align: center;
-	margin-top: 2px;
 }
 
 .design-container .download-paragraph {
-	width: 635px;
-    font-size: 17px;
+    width: 490px;
+    font-size: 12px;
     text-align: center;
-    letter-spacing: .8px;
-    line-height: 150%;
-    margin-right: 80px;
-    margin-top: 28px;
+    letter-spacing: 1px;
+    line-height: 180%;
+    margin-top: 20px;
+    margin-left: 160px;
 }
 
 .btn-container {
 	display: flex;
+	justify-content: center;
 }
 
 .download-btn {
 	position: relative;
-    height: 62px;
-    padding-left: 24px;
-	padding-top: 9px;
+	height: 47px;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-right: 59px;
+    padding-bottom: 32px;
 	transition-duration: .5s;
 }
 
+.btn-container  .btn-android {
+	margin-left: 7px;
+}
+
 .btn-container  .btn-apple {
-    margin-left: 133px;
-    margin-right: 50px;
+	margin-right: 22px;
 }
 
 .btn-icon {
     position: relative;
     z-index: 100;
-    width: 25px;
-    height: 29px;
 }
 
 .icon-apple {
     top: 5px;
-    left: 45px;
+    left: 38px;
 }
  
 .download-btn::after {
     content: "";
     position: absolute;
-    width: 80px;
-    height: 62px;
     background: #009CC2;
     z-index: 10;
     top: 50%;
-    right: -10px;
-    transform: translateY(-50%);
+	right: 0;
+	top: 23px;
+	transform: translateY(-50%);
+	padding: 22px 31px;
 }
 
 .btn-android {
-	padding-left: 22px;
+	padding-top: 6px;
 }
 
 .icon-android {
 	top: 6px;
-    left: 42px;
+	left: 35px;
 }
 
 /* footer */
 .footer {
 	background-color: #000;
-    padding-top: 129px;
-    padding-bottom: 101px;
+	padding-top: 54px;
+    padding-bottom: 73px;
 }
 .footer .wrapper {
-	width: 1700px;
+    max-width: 1280px;
 }
 
 .footer-container {
@@ -498,18 +505,14 @@ body {
 	color: #fff;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 16px;
+	font-size: 13px;
 	line-height: 140%;
 	letter-spacing: .6px;
 	position: relative;
 }
 
-.privacy-credits {
-	margin-right: 51px;
-}
-
-.privacy-priv {
-	margin-right: 53px;
+.footer-privacy-priv {
+    margin-right: 35px;
 }
 
 .footer-vector::after {
@@ -518,19 +521,19 @@ body {
     width: 8px;
     border: 1px solid #4e4e4e;
     transform: rotate(-90deg);
-    top: 12px;
-    left: 80px;
+    top: 8px;
+    left: 60px;
 }
 
 .footer-logo {
-	margin-left: 47px;
-    margin-top: 3px;
+	margin-top: 3px;
+    margin-right: 61px;
 }
 
 .footer-des .des-by {
 	font-style: normal;
 	font-weight: normal;
-	font-size: 18px;
+	font-size: 14px;
 	line-height: 140%;
 	letter-spacing: .2px;
 	text-align: center;
