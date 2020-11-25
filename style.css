@@ -542,3 +542,133 @@ body {
 	color: #818181;
 
 }
+@media (max-width: 1195px) {
+	.img-size {
+		min-width: 280px;
+    	width: 100%;
+	}
+	.slider-box:last-child {
+		margin-right: 0;
+		display: none;
+	}
+	.community-container .content-container {
+		margin-right: 15px;
+		margin-left: 0;
+	}
+}
+@media (max-width: 1180px) {
+	.header {
+		background-size: cover;
+	}
+	.header-nav {
+		justify-content: space-between;
+		width: 90%;
+	}
+	.header-nav_link {
+		margin-right: 15px;
+	}
+	.header-nav_link:first-child {
+		margin-right: 0;
+	}
+	.header-nav_link:nth-child(4) {
+		margin-right: 0;
+	}
+	.content-paragraph {
+		max-width: 520px;
+		width: 80%;
+	}
+	.design-container {
+		align-items: center;
+	}
+	.design-container .content-container {
+		margin-right: 5%;
+		max-width: 388px;
+		width: 100%;
+	}
+	.design-container .content-container {
+		margin-right: 0;
+		margin-left: 5%;
+	}
+	.design-container .content-paragraph {
+		max-width: 408px;
+    	width: 100%;
+	}
+}
+@media (max-width: 1010px) {
+	.slider-box:nth-child(2) {
+		display: none;
+	}
+	.slider-arrows {
+		left: 50%;
+    	transform: translateX(50%);
+	}
+}
+@media (max-width: 768px) {
+	.header {
+		background-size: contain;
+		padding-bottom: 21px;
+	}
+	.header-nav {
+		width: 100%;
+		margin-bottom: 53px;
+	}
+	.header-content {
+		margin-bottom: 82px;
+	}
+	.your-smart-design {
+		padding-top: 60px;
+		padding-bottom: 78px;
+	}
+	.design-container .content-container {
+		margin-top: 0;
+	}
+	.our-community {
+		padding-top: 42px;
+		padding-bottom: 60px;
+	}
+	.community-container {
+		flex-direction: column;
+	}
+	.community-container .content-container {
+		margin-bottom: 50px;
+	}
+	.community-container .content-paragraph {
+		max-width: 300px;
+		width: 100%;
+	}
+	.slider-box {
+		margin-right: 0;
+	}
+	.slider-arrows {
+		bottom: -15%;
+		top: inherit;
+	}
+	.slider-img {
+		width: 100%;
+	}
+}
+@media (max-width: 544px) {
+	.your-smart-design {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.design-container {
+		flex-direction: column;
+		
+	}
+	.design-container .content-container {
+		margin-right: 0;
+		margin-bottom: 30px;
+	}
+	.content-btn {
+		width: 80%;
+	}
+	.design-container .content-btn {
+		width: 100%;
+	}
+}
+@media (max-width: 434px) {
+	.content-btn {
+		width: 100%;
+	}
+}
